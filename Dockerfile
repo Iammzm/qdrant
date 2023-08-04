@@ -112,7 +112,7 @@ WORKDIR ${APP}
 ENV TZ=Etc/UTC \
     RUN_MODE=production
 
-EXPOSE 6333
-EXPOSE 6334
+# EXPOSE 6333
+# EXPOSE 6334
 
-CMD ["./entrypoint.sh"]
+# CMD ["./entrypoint.sh"]
